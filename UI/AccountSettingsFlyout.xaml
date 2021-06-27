@@ -1,0 +1,54 @@
+﻿<!--
+    
+ Web2Mail Version 1.1
+  
+ Copyright 2014 kemunpus@hotmail.com.
+ 
+ Project Page:
+ https://kemunpus.visualstudio.com/DefaultCollection/KemunpusProject
+  
+ See also:
+ http://kemunpus.azurewebsites.net/
+    
+ -->
+<SettingsFlyout
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="346"
+    d:DesignHeight="2048"
+    x:Class="Kemunpus.Web2Mail.UI.AccountSettingsFlyout"
+    x:Uid="UI/AccountSettingsFlyout"
+    IconSource="Assets/SmallLogo.png"
+    HorizontalContentAlignment="Stretch"
+    VerticalContentAlignment="Stretch"
+    HeaderBackground="{StaticResource MyApplicationThemeBrush}"
+    Title="Account">
+  <StackPanel>
+    <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+      <HyperlinkButton x:Uid="UI/AccountSettingsHelp" Content="AccountSettingsHelp"/>
+      <TextBox x:Uid="UI/From" x:Name="From" Text="{Binding From, Mode=TwoWay}" Header="From" InputScope="EmailSmtpAddress" MaxLength="256"/>
+      <TextBox x:Uid="UI/To0" x:Name="To0" Text="{Binding To0, Mode=TwoWay}" Header="To0" InputScope="EmailSmtpAddress" MaxLength="256"/>
+      <TextBox x:Uid="UI/To1" x:Name="To1" Text="{Binding To1, Mode=TwoWay}" Header="To1" InputScope="EmailSmtpAddress" MaxLength="256"/>
+      <TextBox x:Uid="UI/To2" x:Name="To2" Text="{Binding To2, Mode=TwoWay}" Header="To2" InputScope="EmailSmtpAddress" MaxLength="256"/>
+      <TextBox x:Uid="UI/To3" x:Name="To3" Text="{Binding To3, Mode=TwoWay}" Header="To3" InputScope="EmailSmtpAddress" MaxLength="256"/>
+      <TextBox x:Uid="UI/Cc" x:Name="Cc" Text="{Binding Cc, Mode=TwoWay}" Header="Cc" InputScope="EmailSmtpAddress" MaxLength="256"/>
+      <TextBox x:Uid="UI/SmtpServer" x:Name="SmtpServer" Text="{Binding SmtpServer, Mode=TwoWay}" Header="SmtpServer" InputScope="Url" MaxLength="256"/>
+      <TextBox x:Uid="UI/SmtpId" x:Name="SmtpId" Text="{Binding SmtpId, Mode=TwoWay}" Header="SmtpId" InputScope="EmailSmtpAddress" MaxLength="256"/>
+      <PasswordBox x:Uid="UI/SmtpPassword" x:Name="SmtpPassword" Password="{Binding SmtpPassword, Mode=TwoWay}" Header="SmtpPassword" MaxLength="256"/>
+      <TextBox x:Uid="UI/SmtpPort" x:Name="SmtpPort" Text="{Binding SmtpPort, Mode=TwoWay}" Header="SmtpPort" InputScope="Number" MaxLength="5"/>
+      <TextBox x:Uid="UI/SmtpCharset" x:Name="SmtpCharset" Text="{Binding SmtpCharset, Mode=TwoWay, Converter={StaticResource ValueConverter}}" InputScope="AlphanumericHalfWidth" Header="SmtpCharset" MaxLength="64"/>
+      <ToggleSwitch x:Uid="UI/UseSingleLineSubject" x:Name="UseSingleLineSubject" IsOn="{Binding UseSingleLineSubject, Mode=TwoWay}" Header="UseSingleLineSubject" />
+    </StackPanel>
+    <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+      <Button x:Uid="UI/CheckButton" x:Name="CheckButton" Click="CheckButtonClick" Content="CheckButton"/>
+      <TextBlock x:Uid="UI/CheckResult" x:Name="CheckResult" TextWrapping="Wrap" Style="{StaticResource BaseTextBlockStyle}" Text="CheckResult"/>
+    </StackPanel>
+    <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+      <Button x:Uid="UI/PurchaseButton" x:Name="PurchaseButton" Content="PurchaseButton" Click="PurchaseButtonClick"/>
+      <TextBlock x:Uid="UI/LicenseDesription" x:Name="LicenseDescription" TextWrapping="Wrap" Style="{StaticResource BaseTextBlockStyle}" Text="LicenseDescription"/>
+    </StackPanel>
+  </StackPanel>
+</SettingsFlyout>

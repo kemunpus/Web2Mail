@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppName" xml:space="preserve">
+    <value>Web2Mail</value>
+  </data>
+  <data name="Config/HelpUri" xml:space="preserve">
+    <value>http://kemunpus.azurewebsites.net/Web2Mail/en/Help.html#Start</value>
+  </data>
+  <data name="Config/HttpAcceptLanguage" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="Config/PrivacyPolicyUri" xml:space="preserve">
+    <value>http://kemunpus.azurewebsites.net/Web2Mail/en/PrivacyPolicy.html</value>
+  </data>
+  <data name="Config/StartUri" xml:space="preserve">
+    <value>http://kemunpus.azurewebsites.net/Web2Mail/en/Start.html</value>
+  </data>
+  <data name="Message/CheckNG" xml:space="preserve">
+    <value>Test failed, the settings are probably incorrect.</value>
+  </data>
+  <data name="Message/CheckOK" xml:space="preserve">
+    <value>Test succeeded !</value>
+  </data>
+  <data name="Message/CheckStart" xml:space="preserve">
+    <value>Testing the settings with the SMTP server...</value>
+  </data>
+  <data name="Message/InsufficientAccountSettings" xml:space="preserve">
+    <value>Please check the account settings for your e-mail server.</value>
+  </data>
+  <data name="Message/InternalError" xml:space="preserve">
+    <value>Internal error has occurred.</value>
+  </data>
+  <data name="Message/ShareError" xml:space="preserve">
+    <value>Sharing error.</value>
+  </data>
+  <data name="Message/ToastMessage" xml:space="preserve">
+    <value>an e-mail sent. "{1}" to "{0}".</value>
+  </data>
+  <data name="Message/WebError" xml:space="preserve">
+    <value>Can not load the website.</value>
+  </data>
+  <data name="UI/AccountSettingsFlyout.Title" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="UI/AccountSettingsCommand" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="UI/AccountSettingsHelp.Content" xml:space="preserve">
+    <value>Click here to show further help.</value>
+  </data>
+  <data name="UI/AccountSettingsHelp.NavigateUri" xml:space="preserve">
+    <value>http://kemunpus.azurewebsites.net/Web2Mail/en/Help.html#AccountSettings</value>
+  </data>
+  <data name="UI/CheckButton.Content" xml:space="preserve">
+    <value>Settings Test.</value>
+  </data>
+  <data name="UI/CheckButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Test the settings.</value>
+  </data>
+  <data name="UI/CheckResult.Text" xml:space="preserve">
+    <value>Be sure to test the settings using this button.</value>
+  </data>
+  <data name="UI/Header.Text" xml:space="preserve">
+    <value>Web2Mail</value>
+  </data>
+  <data name="UI/HelpCommand" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="UI/HttpAcceptLanguage.Header" xml:space="preserve">
+    <value>HTTP Accept-Language request header.</value>
+  </data>
+  <data name="UI/HttpAcceptLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTP Accept-Encoding request header.</value>
+  </data>
+  <data name="UI/HttpBufferSize.Header" xml:space="preserve">
+    <value>HTTP read buffer size (in bytes).</value>
+  </data>
+  <data name="UI/HttpBufferSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>The maximum length of HTTP buffer that can be processed.</value>
+  </data>
+  <data name="UI/HttpCharset.Header" xml:space="preserve">
+    <value>HTTP default encoding.</value>
+  </data>
+  <data name="UI/HttpCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTP default encoding if none is specified by the web server.</value>
+  </data>
+  <data name="UI/HttpMaxAutomaticRedirections.Header" xml:space="preserve">
+    <value>HTTP max automatic redirections.</value>
+  </data>
+  <data name="UI/HttpMaxAutomaticRedirections.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTP maximum automatic redirections.</value>
+  </data>
+  <data name="UI/HttpTimeout.Header" xml:space="preserve">
+    <value>HTTP connection timeout (in sec).</value>
+  </data>
+  <data name="UI/HttpTimeout.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTP connection timeout in seconds.</value>
+  </data>
+  <data name="UI/HttpUserAgent.Header" xml:space="preserve">
+    <value>HTTP User-Agent request header.</value>
+  </data>
+  <data name="UI/HttpUserAgent.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTP User-Agent request header.</value>
+  </data>
+  <data name="UI/LoadButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Load the website.</value>
+  </data>
+  <data name="UI/From.Header" xml:space="preserve">
+    <value>From.</value>
+  </data>
+  <data name="UI/From.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sender e-mail address.</value>
+  </data>
+  <data name="UI/ToText.Text" xml:space="preserve">
+    <value>To :</value>
+  </data>
+  <data name="UI/To0.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Primary receiver e-mail address.</value>
+  </data>
+  <data name="UI/SmtpServer.Header" xml:space="preserve">
+    <value>SMTP server address.</value>
+  </data>
+  <data name="UI/SmtpServer.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTP server address. (e.g. smtp.live.com).</value>
+  </data>
+  <data name="UI/SmtpPassword.Header" xml:space="preserve">
+    <value>SMTP Password.</value>
+  </data>
+  <data name="UI/SmtpPassword.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTP authentication password.</value>
+  </data>
+  <data name="UI/SmtpId.Header" xml:space="preserve">
+    <value>SMTP ID.</value>
+  </data>
+  <data name="UI/SmtpId.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTP authentication ID.</value>
+  </data>
+  <data name="UI/OptionSettingsFlyout.Title" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="UI/OptionSettingsButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Open the option settings.</value>
+  </data>
+  <data name="Message/Purchased" xml:space="preserve">
+    <value>License purchased. all options are ready.</value>
+  </data>
+  <data name="Message/NotPurchased" xml:space="preserve">
+    <value>Some options are protected. Press this button to activate the license.</value>
+  </data>
+  <data name="UI/OptionSettingsHelp.NavigateUri" xml:space="preserve">
+    <value>http://kemunpus.azurewebsites.net/Web2Mail/en/Help.html#OptionSettings</value>
+  </data>
+  <data name="UI/OptionSettingsHelp.Content" xml:space="preserve">
+    <value>Click here for further help.</value>
+  </data>
+  <data name="UI/PurchaseButton.Content" xml:space="preserve">
+    <value>Purchase License.</value>
+  </data>
+  <data name="UI/PrivacyPolicyCommand" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="UI/SendButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Send an e-mail.</value>
+  </data>
+  <data name="UI/SmtpCharset.Header" xml:space="preserve">
+    <value>SMTP default charset.</value>
+  </data>
+  <data name="UI/SmtpCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTP default charset.</value>
+  </data>
+  <data name="UI/SmtpPort.Header" xml:space="preserve">
+    <value>SMTP port number.</value>
+  </data>
+  <data name="UI/SmtpPort.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTP port number.</value>
+  </data>
+  <data name="UI/SubjectText.Text" xml:space="preserve">
+    <value>Subject :</value>
+  </data>
+  <data name="UI/Subject.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>e-mail subject. the title of the website is displayed.</value>
+  </data>
+  <data name="UI/UrlText.Text" xml:space="preserve">
+    <value>URL :</value>
+  </data>
+  <data name="UI/Url.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Website URL that is sent within the e-mail.</value>
+  </data>
+  <data name="UI/RemoveNop.Header" xml:space="preserve">
+    <value>Remove no-operation data.</value>
+  </data>
+  <data name="UI/RemoveNop.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Remove no-operation data from the HTML.</value>
+  </data>
+  <data name="UI/RemoveScript.Header" xml:space="preserve">
+    <value>Remove script tags.</value>
+  </data>
+  <data name="UI/RemoveScript.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Remove &lt;script&gt; and &lt;noscript&gt; tags from the HTML.</value>
+  </data>
+  <data name="UI/UseSingleLineSubject.Header" xml:space="preserve">
+    <value>Do not split the e-mail subject.</value>
+  </data>
+  <data name="UI/UseSingleLineSubject.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Do not split the e-mail subject in MIME even if it's longer than RFC-defined length.</value>
+  </data>
+  <data name="UI/UseAttachment.Header" xml:space="preserve">
+    <value>Embed data in the e-mail.</value>
+  </data>
+  <data name="UI/UseAttachment.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Embed all data (e.g. Images) in the e-mail HTML.</value>
+  </data>
+  <data name="UI/To1.Header" xml:space="preserve">
+    <value>Additional 'To' (1).</value>
+  </data>
+  <data name="UI/To1.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Additional receiver e-mail address (1).</value>
+  </data>
+  <data name="UI/To2.Header" xml:space="preserve">
+    <value>Additional 'To' (2).</value>
+  </data>
+  <data name="UI/To2.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Additional receiver e-mail address (2).</value>
+  </data>
+  <data name="UI/To3.Header" xml:space="preserve">
+    <value>Additional 'To' (3).</value>
+  </data>
+  <data name="UI/To3.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Additional receiver e-mail address (3).</value>
+  </data>
+  <data name="UI/Cc.Header" xml:space="preserve">
+    <value>Additional 'Cc'.</value>
+  </data>
+  <data name="UI/Cc.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Additional receiver e-mail address (Cc).</value>
+  </data>
+  <data name="UI/HtmlBufferSize.Header" xml:space="preserve">
+    <value>HTML buffer size.</value>
+  </data>
+  <data name="UI/HtmlBufferSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>The maximum length of HTML buffer that can be processed.</value>
+  </data>
+  <data name="Message/HtmlBufferError" xml:space="preserve">
+    <value>HTML buffer is full.</value>
+  </data>
+  <data name="Message/MailError" xml:space="preserve">
+    <value>Failed to send the e-mail.</value>
+  </data>
+  <data name="UI/To0.Header" xml:space="preserve">
+    <value>Primary 'To'.</value>
+  </data>
+  <data name="UI/UseWebView.Header" xml:space="preserve">
+    <value>Rendered HTML preview.</value>
+  </data>
+  <data name="UI/UseWebView.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Rendered HTML preview using the WebView browser control.</value>
+  </data>
+  <data name="UI/UseZoomOut.Header" xml:space="preserve">
+    <value>Zoomed-out HTML preview.</value>
+  </data>
+  <data name="UI/UseZoomOut.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zoomed-out HTML preview in share mode.</value>
+  </data>
+</root>

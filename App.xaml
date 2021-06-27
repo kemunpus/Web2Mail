@@ -1,0 +1,24 @@
+﻿<!--
+    
+ Web2Mail Version 1.1
+  
+ Copyright 2014 kemunpus@hotmail.com.
+ 
+ Project Page:
+ https://kemunpus.visualstudio.com/DefaultCollection/KemunpusProject
+  
+ See also:
+ http://kemunpus.azurewebsites.net/
+    
+ -->
+<Application
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Common="using:Kemunpus.Web2Mail.Common"
+    x:Class="Kemunpus.Web2Mail.App">
+  <Application.Resources>
+    <SolidColorBrush x:Key="MyApplicationThemeBrush" Color="#CC6600"/>
+    <SolidColorBrush x:Key="MyApplicationBackgroundBrush" Color="#CC9999"/>
+    <Common:ValueConverter x:Key="ValueConverter"/>
+  </Application.Resources>
+</Application>

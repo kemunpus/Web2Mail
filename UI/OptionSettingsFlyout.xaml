@@ -1,0 +1,48 @@
+﻿<!--
+    
+ Web2Mail Version 1.1
+  
+ Copyright 2014 kemunpus@hotmail.com.
+ 
+ Project Page:
+ https://kemunpus.visualstudio.com/DefaultCollection/KemunpusProject
+  
+ See also:
+ http://kemunpus.azurewebsites.net/
+    
+ -->
+<SettingsFlyout
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="346"
+    d:DesignHeight="2048"
+    x:Class="Kemunpus.Web2Mail.UI.OptionSettingsFlyout"
+    x:Uid="UI/OptionSettingsFlyout"
+    IconSource="Assets/SmallLogo.png"
+    HorizontalContentAlignment="Stretch"
+    VerticalContentAlignment="Stretch"
+    HeaderBackground="{StaticResource MyApplicationThemeBrush}"
+    Title="Option"
+    BackClick="BackClick">
+  <StackPanel>
+    <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+      <TextBlock x:Name="VersionInfo" TextWrapping="Wrap" Text="VersionInfo"/>
+      <HyperlinkButton x:Uid="UI/OptionSettingsHelp" Content="OptionSettingsHelp"/>
+      <ToggleSwitch x:Uid="UI/UseAttachment" x:Name="UseAttachment" IsOn="{Binding UseAttachment, Mode=TwoWay}" Header="UseAttachment" />
+      <ToggleSwitch x:Uid="UI/UseWebView" x:Name="UseWebView" IsOn="{Binding UseWebView, Mode=TwoWay}" Header="UseWebView" />
+      <ToggleSwitch x:Uid="UI/UseZoomOut" x:Name="UseZoomOut" IsOn="{Binding UseZoomOut, Mode=TwoWay}" Header="UseZoomOut" />
+      <ToggleSwitch x:Uid="UI/RemoveScript" x:Name="RemoveScript" IsOn="{Binding RemoveScript, Mode=TwoWay}" Header="RemoveScript" />
+      <ToggleSwitch x:Uid="UI/RemoveNop" x:Name="RemoveNop" IsOn="{Binding RemoveNop, Mode=TwoWay}" Header="RemoveNop" />
+      <TextBox x:Uid="UI/HttpCharset" x:Name="HttpCharset" Text="{Binding HttpCharset, Mode=TwoWay, Converter={StaticResource ValueConverter}}" InputScope="AlphanumericHalfWidth" Header="HttpCharset" MaxLength="64"/>
+      <TextBox x:Uid="UI/HttpAcceptLanguage" x:Name="HttpAcceptLanguage" Text="{Binding HttpAcceptLanguage, Mode=TwoWay}" InputScope="AlphanumericHalfWidth" Header="HttpAcceptLanguage" MaxLength="256"/>
+      <TextBox x:Uid="UI/HttpTimeout" x:Name="HttpTimeout" Text="{Binding HttpTimeout, Mode=TwoWay}" Header="HttpTimeout" InputScope="Number" MaxLength="10"/>
+      <TextBox x:Uid="UI/HttpMaxAutomaticRedirections" x:Name="HttpMaxAutomaticRedirections" Text="{Binding HttpMaxAutomaticRedirections, Mode=TwoWay}" InputScope="Number" Header="HttpMaxAutomaticRedirections" MaxLength="3"/>
+      <TextBox x:Uid="UI/HttpUserAgent" x:Name="HttpUserAgent" Text="{Binding HttpUserAgent, Mode=TwoWay}" InputScope="AlphanumericHalfWidth" Header="HttpUserAgent" MaxLength="256"/>
+      <TextBox x:Uid="UI/HttpBufferSize" x:Name="HttpBufferSize" Text="{Binding HttpBufferSize, Mode=TwoWay}" Header="HttpBufferSize" InputScope="Number" MaxLength="10"/>
+      <TextBox x:Uid="UI/HtmlBufferSize" x:Name="HtmlBufferSize" Text="{Binding HtmlBufferSize, Mode=TwoWay}" Header="HtmlBufferSize" InputScope="Number" MaxLength="10"/>
+    </StackPanel>
+  </StackPanel>
+</SettingsFlyout>

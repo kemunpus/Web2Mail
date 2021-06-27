@@ -1,0 +1,54 @@
+﻿<!--
+    
+ Web2Mail Version 1.1
+  
+ Copyright 2014 kemunpus@hotmail.com.
+ 
+ Project Page:
+ https://kemunpus.visualstudio.com/DefaultCollection/KemunpusProject
+  
+ See also:
+ http://kemunpus.azurewebsites.net/
+    
+ -->
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="346"
+    x:Class="Kemunpus.Web2Mail.UI.SharePage"
+    x:Uid="UI/SharePage"
+    GotFocus="GotFocus">
+  <Grid Background="{StaticResource MyApplicationBackgroundBrush}">
+    <Grid Margin="20,10,20,20">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+      </Grid.ColumnDefinitions>
+      <TextBlock x:Uid="UI/ToText" Text="To:" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource BaseTextBlockStyle}" Margin="0,0,10,0"/>
+      <ComboBox x:Uid="UI/ToComboBox" x:Name="ToComboBox" ItemsSource="{Binding}" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" KeyDown="KeyDown"/>
+      <AppBarButton x:Uid="UI/SendButton" x:Name="SendButton" Icon="Send" IsCompact="True" Grid.Row="0" Grid.Column="2" Click="SendButtonClick" />
+      <TextBlock x:Uid="UI/SubjectText" Text="Subject:" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource BaseTextBlockStyle}" Margin="0,0,10,0"/>
+      <TextBox x:Uid="UI/Subject" x:Name="Subject" Text="{Binding Subject, Mode=TwoWay}" MaxLength="1024" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" KeyDown="KeyDown" />
+      <AppBarButton x:Uid="UI/OptionSettingsButton" x:Name="OptionSettingsButton" Icon="Setting" IsCompact="True" Grid.Row="1" Grid.Column="2" Click="OptionSettingsButtonClick" />
+      <TextBlock x:Uid="UI/UrlText" Text="URL:" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource BaseTextBlockStyle}" Margin="0,0,10,0"/>
+      <TextBox x:Uid="UI/Url" x:Name="Url" Text="{Binding Url, Mode=OneWay}" IsReadOnly="True" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"/>
+      <AppBarButton x:Uid="UI/LoadButton" x:Name="LoadButton" Icon="Download" IsCompact="True" Grid.Row="2" Grid.Column="2" Click="LoadButtonClick"/>
+      <Grid Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3">
+        <WebView x:Name="PreviewWebView" NavigationStarting="PreviewNavigationStarting" GotFocus="PreviewGotFocus" DOMContentLoaded="PreviewDOMContentLoaded"/>
+        <TextBox x:Name="PreviewTextBox" GotFocus="PreviewGotFocus" TextWrapping="Wrap" IsReadOnly="True" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <ProgressRing x:Name="ProgressRing" Width="80" Height="80" IsActive="True"/>
+      </Grid>
+    </Grid>
+  </Grid>
+</Page>

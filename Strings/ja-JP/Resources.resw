@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppName" xml:space="preserve">
+    <value>Web2Mail</value>
+  </data>
+  <data name="Config/HelpUri" xml:space="preserve">
+    <value>http://kemunpus.azurewebsites.net/Web2Mail/ja/Help.html#Start</value>
+  </data>
+  <data name="Config/HttpAcceptLanguage" xml:space="preserve">
+    <value>ja,en</value>
+  </data>
+  <data name="Config/PrivacyPolicyUri" xml:space="preserve">
+    <value>http://kemunpus.azurewebsites.net/Web2Mail/ja/PrivacyPolicy.html</value>
+  </data>
+  <data name="Config/StartUri" xml:space="preserve">
+    <value>http://kemunpus.azurewebsites.net/Web2Mail/ja/Start.html</value>
+  </data>
+  <data name="Message/CheckNG" xml:space="preserve">
+    <value>設定が正しくないようです.</value>
+  </data>
+  <data name="Message/CheckOK" xml:space="preserve">
+    <value>テストが成功しました!</value>
+  </data>
+  <data name="Message/CheckStart" xml:space="preserve">
+    <value>SMTPサーバに設定を確認中です...</value>
+  </data>
+  <data name="Message/InsufficientAccountSettings" xml:space="preserve">
+    <value>アカウントの設定が終了していないようです. 最初にアカウントの設定をしてからご使用ください.</value>
+  </data>
+  <data name="Message/InternalError" xml:space="preserve">
+    <value>内部エラーが発生しました.</value>
+  </data>
+  <data name="Message/ShareError" xml:space="preserve">
+    <value>共有でエラーが発生しました.</value>
+  </data>
+  <data name="Message/ToastMessage" xml:space="preserve">
+    <value>送信完了. "{0}" "{1}". </value>
+  </data>
+  <data name="Message/WebError" xml:space="preserve">
+    <value>Webサイトを読み込めませんでした.</value>
+  </data>
+  <data name="UI/AccountSettingsFlyout.Title" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="UI/AccountSettingsCommand" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="UI/AccountSettingsHelp.Content" xml:space="preserve">
+    <value>以下の設定に関するヘルプを見る.</value>
+  </data>
+  <data name="UI/AccountSettingsHelp.NavigateUri" xml:space="preserve">
+    <value>http://kemunpus.azurewebsites.net/Web2Mail/ja/Help.html#AccountSettings</value>
+  </data>
+  <data name="UI/CheckButton.Content" xml:space="preserve">
+    <value>設定のテスト</value>
+  </data>
+  <data name="UI/CheckButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>設定内容が正しいかどうか、実際にSMTPサーバにアクセスして確認します.</value>
+  </data>
+  <data name="UI/CheckResult.Text" xml:space="preserve">
+    <value>このボタンを押して設定内容が正しいかどうかをテストしてください.</value>
+  </data>
+  <data name="UI/Header.Text" xml:space="preserve">
+    <value>Web2Mail</value>
+  </data>
+  <data name="UI/HelpCommand" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="UI/HttpAcceptLanguage.Header" xml:space="preserve">
+    <value>HTTPのAccept-Language.</value>
+  </data>
+  <data name="UI/HttpAcceptLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTPのリクエスト時にAccept-Encodingヘッダで使用される値をしています.</value>
+  </data>
+  <data name="UI/HttpBufferSize.Header" xml:space="preserve">
+    <value>HTTPの読み込みバッファサイズ(バイト).</value>
+  </data>
+  <data name="UI/HttpBufferSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTPの読み込みに使用するバッファのサイズをバイトで指定します.これよりも長いデータは読み込めません.</value>
+  </data>
+  <data name="UI/HttpCharset.Header" xml:space="preserve">
+    <value>HTTPでデフォルトとする文字コード.</value>
+  </data>
+  <data name="UI/HttpCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTPでエンコーディングが判定できなかったときに使用する文字コードを指定します.</value>
+  </data>
+  <data name="UI/HttpMaxAutomaticRedirections.Header" xml:space="preserve">
+    <value>HTTPでリダイレクト要求に従う回数.</value>
+  </data>
+  <data name="UI/HttpMaxAutomaticRedirections.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTPのリクエストが303などでリダイレクトされたときに従う回数を指定します.</value>
+  </data>
+  <data name="UI/HttpTimeout.Header" xml:space="preserve">
+    <value>HTTPがタイムアウトする時間(秒).</value>
+  </data>
+  <data name="UI/HttpTimeout.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTPのアクセスがタイムアウトするまでの時間を秒で指定します.</value>
+  </data>
+  <data name="UI/HttpUserAgent.Header" xml:space="preserve">
+    <value>HTTPのUser-Agent.</value>
+  </data>
+  <data name="UI/HttpUserAgent.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTTPのリクエスト時にUser-Agentヘッダで使用される値を指定します.</value>
+  </data>
+  <data name="UI/LoadButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Webサイトの内容を読み込みます.</value>
+  </data>
+  <data name="UI/From.Header" xml:space="preserve">
+    <value>送信元のメールアドレス(From).</value>
+  </data>
+  <data name="UI/From.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>メールの送信元としてFromに書かれるメールアドレスです.必ず指定する必要があります.</value>
+  </data>
+  <data name="UI/ToText.Text" xml:space="preserve">
+    <value>宛先 :</value>
+  </data>
+  <data name="UI/To0.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>メールを送信する宛先のメールアドレス(To)を指定します.必ず指定する必要があります.</value>
+  </data>
+  <data name="UI/SmtpServer.Header" xml:space="preserve">
+    <value>SMTPサーバのアドレス.</value>
+  </data>
+  <data name="UI/SmtpServer.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTPサーバのアドレスです.たとえば smtp.live.com などです.必ず指定する必要があります.</value>
+  </data>
+  <data name="UI/SmtpPassword.Header" xml:space="preserve">
+    <value>SMTPサーバのパスワード.</value>
+  </data>
+  <data name="UI/SmtpPassword.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTPサーバでメールの送信に使用するパスワードを指定します.IDとともにSMTPサーバの認証を受けるために使用します.</value>
+  </data>
+  <data name="UI/SmtpId.Header" xml:space="preserve">
+    <value>SMTPサーバのID.</value>
+  </data>
+  <data name="UI/SmtpId.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTPサーバでメールの送信に使用するIDを指定します.パスワードとともにSMTPサーバの認証を受けるために使用します.</value>
+  </data>
+  <data name="UI/OptionSettingsFlyout.Title" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="UI/OptionSettingsButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>オプションの設定を開きます.</value>
+  </data>
+  <data name="Message/Purchased" xml:space="preserve">
+    <value>全てのオプションが変更できるようになっています.</value>
+  </data>
+  <data name="Message/NotPurchased" xml:space="preserve">
+    <value>いくつかの設定を変更するためにはこのボタンによるライセンスの購入が必要です.</value>
+  </data>
+  <data name="UI/OptionSettingsHelp.NavigateUri" xml:space="preserve">
+    <value>http://kemunpus.azurewebsites.net/Web2Mail/ja/Help.html#OptionSettings</value>
+  </data>
+  <data name="UI/OptionSettingsHelp/Content" xml:space="preserve">
+    <value>以下のオプションに関するヘルプをみる.</value>
+  </data>
+  <data name="UI/PurchaseButton.Content" xml:space="preserve">
+    <value>ライセンスを購入</value>
+  </data>
+  <data name="UI/PrivacyPolicyCommand" xml:space="preserve">
+    <value>プライバシーポリシー</value>
+  </data>
+  <data name="UI/SendButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>メールを送信します.</value>
+  </data>
+  <data name="UI/SmtpCharset.Header" xml:space="preserve">
+    <value>SMTPで使用する文字コード.</value>
+  </data>
+  <data name="UI/SmtpCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTPサーバとデータのやり取りをする際の文字コードを指定します.</value>
+  </data>
+  <data name="UI/SmtpPort.Header" xml:space="preserve">
+    <value>SMTPサーバのポート番号.</value>
+  </data>
+  <data name="UI/SmtpPort.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTPサーバに接続する際に使用するポート番号を指定します.</value>
+  </data>
+  <data name="UI/SubjectText.Text" xml:space="preserve">
+    <value>件名 :</value>
+  </data>
+  <data name="UI/Subject.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>送信するメールの件名を指定します.初期値として自動的にWebサイトのタイトルが指定されます.</value>
+  </data>
+  <data name="UI/UrlText.Text" xml:space="preserve">
+    <value>URL :</value>
+  </data>
+  <data name="UI/Url.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>メールで送信する対象となるWebサイトのアドレス(URL)を指定します.</value>
+  </data>
+  <data name="UI/RemoveNop.Header" xml:space="preserve">
+    <value>HTMLから不要な情報を削除.</value>
+  </data>
+  <data name="UI/RemoveNop.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTMLからメールでは不要となる情報をできるだけ取り除きます.</value>
+  </data>
+  <data name="UI/RemoveScript.Header" xml:space="preserve">
+    <value>HTMLからスクリプトタグを削除.</value>
+  </data>
+  <data name="UI/RemoveScript.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTMLから&lt;script&gt;や&lt;noscript&gt;などのタグを取り除きます.</value>
+  </data>
+  <data name="UI/UseSingleLineSubject.Header" xml:space="preserve">
+    <value>SMTPで件名を分割しない.</value>
+  </data>
+  <data name="UI/UseSingleLineSubject.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>SMTPによる送信時に長い件名をわざと分割しません.</value>
+  </data>
+  <data name="UI/UseAttachment.Header" xml:space="preserve">
+    <value>データをHTMLに埋め込む.</value>
+  </data>
+  <data name="UI/UseAttachment.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>画像などのデータをそのままHTMLに埋め込んで送信します.</value>
+  </data>
+  <data name="UI/To1.Header" xml:space="preserve">
+    <value>追加の宛先1.</value>
+  </data>
+  <data name="UI/To1.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>追加の宛先1です.</value>
+  </data>
+  <data name="UI/To2.Header" xml:space="preserve">
+    <value>追加の宛先2.</value>
+  </data>
+  <data name="UI/To2.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>追加の宛先2です.</value>
+  </data>
+  <data name="UI/To3.Header" xml:space="preserve">
+    <value>追加の宛先3.</value>
+  </data>
+  <data name="UI/To3.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>追加の宛先3です.</value>
+  </data>
+  <data name="UI/Cc.Header" xml:space="preserve">
+    <value>追加の宛先(Cc).</value>
+  </data>
+  <data name="UI/Cc.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>追加の宛先(Cc)です. 指定した場合は常にこのメールアドレスに同時に送信されます.</value>
+  </data>
+  <data name="UI/HtmlBufferSize.Header" xml:space="preserve">
+    <value>HTMLの処理バッファサイズ(文字数).</value>
+  </data>
+  <data name="UI/HtmlBufferSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTMLの処理に使用するバッファのサイズを文字数で指定します.これよりも長いHTMLは処理できません.</value>
+  </data>
+  <data name="Message/HtmlBufferError" xml:space="preserve">
+    <value>HTMLの長さがバッファサイズを超えてしまいました.</value>
+  </data>
+  <data name="Message/MailError" xml:space="preserve">
+    <value>メールが送信できませんでした.</value>
+  </data>
+  <data name="UI/To0.Header" xml:space="preserve">
+    <value>標準の宛先(To).</value>
+  </data>
+  <data name="UI/UseWebView.Header" xml:space="preserve">
+    <value>HTMLをレンダリングしてプレビュー.</value>
+  </data>
+  <data name="UI/UseWebView.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTMLをテキストではなくブラウザコントロール(WebView)でレンダリングしてプレビューします.</value>
+  </data>
+  <data name="UI/UseZoomOut.Header" xml:space="preserve">
+    <value>共有時にはHTMLを縮小してプレビュー.</value>
+  </data>
+  <data name="UI/UseZoomOut.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>HTMLをレンダリングしてプレビューするときに縮小します(共有時のみ).</value>
+  </data>
+</root>
